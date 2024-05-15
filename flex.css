@@ -1,0 +1,118 @@
+.main {
+    display: flex;
+    border: 8px solid grey;
+    height: 500px;
+}
+
+.one {
+    background: darkred;
+    border: 8px solid gray;
+}
+
+.two {
+    background: lightgreen;
+}
+
+.twoa {
+    height: 50%;
+    border-top: 8px solid gray;
+    border-left: 8px solid gray;
+    border-right: 8px solid gray;
+}
+
+.three {
+    background: white;
+    height: 46%;
+    border: 8px solid gray;
+}
+
+body {
+    p {
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.threea {
+    width: 50%;
+    border: 8px solid gray;
+}
+
+.four {
+    background: lightcoral;
+    width: 50%;
+    border: 8px solid gray;
+}
+
+.foura {
+    height: 50%;
+    background: orchid;
+}
+
+.fourb {
+    height: 50%;
+    background: olivedrab;
+}
+
+.con2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.con21 {
+    width: 100px;
+    height: 200px;
+    background: green;
+}
+
+.con22 {
+    width: 100px;
+    height: 200px;
+    background: greenyellow;
+}
+
+.con3 {
+    display: flex;
+    justify-content: center;
+}
+
+.con31 {
+    width: 100px;
+    background: lightblue;
+}
+
+.con32 {
+    width: 100px;
+    background: lavender;
+}
+
+.con4 {
+    display: flex;
+    justify-content: start;
+}
+
+.con41 {
+    width: 100px;
+    background: lightblue;
+}
+
+.con42 {
+    width: 100px;
+    background: lavender;
+}
+
+.con5 {
+    display: flex;
+    justify-content: end;
+}
+
+.con51 {
+    width: 100px;
+    background: lightblue;
+}
+
+.con52 {
+    width: 100px;
+    background: lavender;
+}
