@@ -9,40 +9,59 @@
 </head>
 
 <body>
-    <nav>
-        <ul class="topl">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
+    <header>
+        <nav>
+            <ul class="topl">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
     <main>
         <section id="home" class="home">
             <div style="width: 50%;">
                 <h1 class="homeh">Welcome to My Website!</h1>
             </div>
-            <div>
-            <p>This is a sample website with a navigation bar and sections.</p>
+            <div class="home2">
+                <p style="color: transparent;">This is a sample website with a navigation bar and sections.</p>
             </div>
         </section>
 
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod magna eu consectetur cursus.
-                Donec nec diam luctus, rutrum odio vitae, sollicitudin urna. Pellentesque auctor magna sit amet elit
-                tristique interdum.</p>
+        <section id="about" class="about">
+            <div style="width: 50%; padding-right: 20px;">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod magna eu consectetur
+                    cursus.
+                    Donec nec diam luctus, rutrum odio vitae, sollicitudin urna. Pellentesque auctor magna sit amet elit
+                    tristique interdum.</p>
+            </div>
+            <div class="abback">
+                <p style="color: transparent;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.bdhjddnbdjfkddmddkddmm
+                </p>
+
+            </div>
         </section>
 
-        <section id="gallery">
+        <section id="gallery" class="gallery">
             <h2>Gallery</h2>
-            <p>This is where your image gallery would go. You can add images using HTML elements like `<img>` or embed
-                them from other sources.</p>
+            <div class="images"></div>
+            <img src="./images/bachground.png" alt="1" style="width: 38%;">
+            <img src="./images/background.jpg" alt="2" style="width: 30%;">
+            <img src="./images/menu.png" alt="3" style="width: 27%;">
+            </div>
+            <div class="images2">
+                <img src="./images/Newimage.png" alt="4" style="width: 50%;">
+                <img src="./images/Women T Shirt.png" alt="5" style="width: 48%; padding-left: 10px;">
+            </div>
+
         </section>
 
-        <section id="services">
+        <section id="services" class="services">
             <h2>Services</h2>
             <ul>
                 <li>Service 1</li>
@@ -51,15 +70,21 @@
             </ul>
         </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum tortor ac eleifend eleifend.
-                Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            <p>Feel free to contact us using the information below:</p>
-            <ul>
-                <li>Email: example@email.com</li>
-                <li>Phone: 123-456-7890</li>
-            </ul>
+        <section id="contact" class="contact">
+            <div class="con1">
+                <img src="./images/background.jpg" alt="3" style="width: 500px;">
+            </div>
+            <div class="con2">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fermentum tortor ac eleifend
+                    eleifend.
+                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
+                <p>Feel free to contact us using the information below:</p>
+                <ul>
+                    <li><a href="mailto:jadoonh78@gmail.com">Email: example@email.com</a></li>
+                    <li><a href="tel:+923121857078">Phone: +923121857078</a></li>
+                </ul>
+            </div>
         </section>
     </main>
 
